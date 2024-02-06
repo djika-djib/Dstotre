@@ -1,0 +1,192 @@
+ul {
+  color: darkblue;
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+li {
+  display: inline;
+  margin-right: 40px;
+}
+
+#topLinks ul li a {
+  color: orangered;
+  text-decoration: none;
+}
+
+/* img {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+} */
+
+.clear {
+  clear: both;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+tr {
+  text-align: left;
+}
+
+td {
+  padding: 8px;
+  width: 33.33%;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bold;
+  margin-left: 20px;
+}
+#topLinks {
+  float: right;
+}
+/* aboout us */
+.about-us {
+  margin: 1em 1.8em;
+  text-align: justify;
+  line-height: 1.6em;
+}
+
+.about-us .left-col {
+  float: left;
+  width: 50%;
+  padding-top: 1.5em;
+  margin: 0 60px;
+}
+.about-us .left-col p {
+  text-align: justify;
+}
+.about-us .right-col {
+  width: 0%;
+}
+.about-us .right-col img {
+  border-radius: 5px;
+  border: 2px solid orangered;
+}
+/* Services B */
+.about-us .right-col-b {
+  float: right;
+  width: 50%;
+  padding-bottom: 9em;
+  /* margin: 10px 60px 0px 60px; */
+}
+.about-us .right-col-b p {
+  text-align: justify;
+}
+.about-us .left-col-b {
+  width: 0%;
+}
+.about-us .left-col-b img {
+  margin-left: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border: 2px solid orangered;
+}
+
+/* about-us content */
+.about-us-content h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: orangered;
+  margin: 1em 0 2em 0;
+}
+
+.abt-desc {
+  margin: 1em 2em 2em 2em;
+}
+
+.abt-desc p {
+  font-size: 1.4em;
+  text-align: justify;
+  line-height: 1.6em;
+}
+
+/* Services */
+.services {
+  margin: 2em;
+  text-align: justify;
+  line-height: 1.6em;
+}
+.services h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  /* color: orangered; */
+  margin: 1em 0 2em 0;
+}
+
+.services .service-content {
+  width: 30%;
+  float: left;
+  padding: 5px;
+  margin: 10px;
+}
+
+/* Contact us */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cotainer h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: orangered;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
