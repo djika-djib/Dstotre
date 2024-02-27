@@ -10,7 +10,7 @@ li {
 }
 
 #topLinks ul li a {
-  color: orangered;
+  color: darkblue;
   text-decoration: none;
 }
 
@@ -190,3 +190,19 @@ button {
 button:hover {
   background-color: green;
 }
+.banner img {
+  width: 100%;
+  height: 500px;
+}
+
+/* Media Query */
+/* @media screen and (max-width: 678px) {
+  .wrap #topLinks ul li {
+    display: block;
+    color: black;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+} */
